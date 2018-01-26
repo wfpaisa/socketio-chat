@@ -1,6 +1,14 @@
 # Socketio chat
-A simple chat using socket io
+A simple examples about chats using socket io
 
 ## Build
 
-## Test 
+Simple chat using `Express`, `Socket.io`, `Jquery`, URI: `localhost:3000`.
+
+```bash
+$ cd basic-chat
+$ npm i
+$ npm start
+```
+
+
