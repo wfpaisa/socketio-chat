@@ -1,5 +1,5 @@
 # Socketio chat
-A simple examples about chats using socket io
+Examples about simple chats using socket.io
 
 ## Build
 
@@ -12,3 +12,11 @@ $ npm start
 ```
 
 
+Chat with a better structure `Express`, `Socket.io`, `Materialize`, URI: `localhost:3000`.
+
+
+```bash
+$ cd better-chat
+$ npm i
+$ npm start
+```

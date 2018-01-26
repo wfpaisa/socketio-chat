@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <ul id="messages"></ul>
+
+    <form action="">
+      
+      <div class="row">
+        <div class="input-field col s2">
+          <input id="n" type="text" class="validate">
+          <label for="n">Nickname</label>
+        </div>
+        <div class="input-field col s8">
+          <input id="m" type="text" class="validate" autocomplete="off">
+          <label for="m">Text</label>
+        </div>
+        
+        <div class="input-field col s2">
+          <button class="waves-effect waves-light btn-large">Send</button>
+        </div>
+      </div>
+
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
+
