@@ -1,0 +1,29 @@
+{
+  "name": "socketio-chat",
+  "version": "1.0.0",
+  "description": "Simple Socketio chat",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfpaisa/socketio-chat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "wfpaisa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wfpaisa/socketio-chat/issues"
+  },
+  "homepage": "https://github.com/wfpaisa/socketio-chat#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
